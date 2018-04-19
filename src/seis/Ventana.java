@@ -67,10 +67,75 @@ public class Ventana extends javax.swing.JFrame {
         jLabel72 = new javax.swing.JLabel();
         jLabel73 = new javax.swing.JLabel();
         jLabel74 = new javax.swing.JLabel();
+        txt3EDifExteriores = new javax.swing.JTextField();
+        txt3EPorcentajeNExteriores = new javax.swing.JTextField();
+        txt3EPorcentajeAExteriores = new javax.swing.JTextField();
         jLabel75 = new javax.swing.JLabel();
         jLabel76 = new javax.swing.JLabel();
         jLabel77 = new javax.swing.JLabel();
         jLabel78 = new javax.swing.JLabel();
+        jLabel79 = new javax.swing.JLabel();
+        txt3EDifExteriores1 = new javax.swing.JTextField();
+        txt3EPorcentajeNExteriores1 = new javax.swing.JTextField();
+        jLabel80 = new javax.swing.JLabel();
+        txt3EPorcentajeAExteriores1 = new javax.swing.JTextField();
+        jLabel81 = new javax.swing.JLabel();
+        jLabel82 = new javax.swing.JLabel();
+        jLabel83 = new javax.swing.JLabel();
+        jLabel84 = new javax.swing.JLabel();
+        txt3EDifExteriores2 = new javax.swing.JTextField();
+        txt3EPorcentajeNExteriores2 = new javax.swing.JTextField();
+        jLabel85 = new javax.swing.JLabel();
+        txt3EPorcentajeAExteriores2 = new javax.swing.JTextField();
+        jLabel86 = new javax.swing.JLabel();
+        jLabel87 = new javax.swing.JLabel();
+        jLabel88 = new javax.swing.JLabel();
+        jLabel89 = new javax.swing.JLabel();
+        txt3EDifExteriores3 = new javax.swing.JTextField();
+        txt3EPorcentajeNExteriores3 = new javax.swing.JTextField();
+        jLabel90 = new javax.swing.JLabel();
+        txt3EPorcentajeAExteriores3 = new javax.swing.JTextField();
+        jLabel91 = new javax.swing.JLabel();
+        jLabel92 = new javax.swing.JLabel();
+        jLabel93 = new javax.swing.JLabel();
+        jLabel94 = new javax.swing.JLabel();
+        txt3EDifExteriores4 = new javax.swing.JTextField();
+        txt3EPorcentajeNExteriores4 = new javax.swing.JTextField();
+        jLabel95 = new javax.swing.JLabel();
+        txt3EPorcentajeAExteriores4 = new javax.swing.JTextField();
+        jLabel96 = new javax.swing.JLabel();
+        jLabel97 = new javax.swing.JLabel();
+        jLabel98 = new javax.swing.JLabel();
+        jLabel99 = new javax.swing.JLabel();
+        txt3EDifExteriores5 = new javax.swing.JTextField();
+        txt3EPorcentajeNExteriores5 = new javax.swing.JTextField();
+        jLabel100 = new javax.swing.JLabel();
+        txt3EPorcentajeAExteriores5 = new javax.swing.JTextField();
+        jLabel101 = new javax.swing.JLabel();
+        jLabel102 = new javax.swing.JLabel();
+        jLabel104 = new javax.swing.JLabel();
+        txt3ETotalMedicion = new javax.swing.JTextField();
+        txt3EDifExteriores6 = new javax.swing.JTextField();
+        txt3EPorcentajeNExteriores6 = new javax.swing.JTextField();
+        jLabel105 = new javax.swing.JLabel();
+        txt3EPorcentajeAExteriores6 = new javax.swing.JTextField();
+        jLabel106 = new javax.swing.JLabel();
+        jSeparator1 = new javax.swing.JSeparator();
+        jSeparator2 = new javax.swing.JSeparator();
+        jSeparator3 = new javax.swing.JSeparator();
+        jSeparator4 = new javax.swing.JSeparator();
+        jSeparator5 = new javax.swing.JSeparator();
+        jSeparator6 = new javax.swing.JSeparator();
+        jSeparator7 = new javax.swing.JSeparator();
+        jSeparator8 = new javax.swing.JSeparator();
+        jSeparator9 = new javax.swing.JSeparator();
+        txt3EPresicion = new javax.swing.JSpinner();
+        txt3EExteriores = new javax.swing.JSpinner();
+        txt3EInteriores = new javax.swing.JSpinner();
+        txt3ETalleres = new javax.swing.JSpinner();
+        txt3EServicios = new javax.swing.JSpinner();
+        jSpinner6 = new javax.swing.JSpinner();
+        txt3EAreas = new javax.swing.JSpinner();
         jPanel10 = new javax.swing.JPanel();
         jPanel11 = new javax.swing.JPanel();
         jPanel12 = new javax.swing.JPanel();
@@ -295,121 +360,387 @@ public class Ventana extends javax.swing.JFrame {
         tabEnergia.addTab("tab1", jPanel7);
         tabEnergia.addTab("tab2", jPanel8);
 
-        jPanel9.setLayout(null);
+        jPanel9.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel1.setText("LA SIGUIENTE TABLA SE REALIZA TOMANDO COMO REFERENCIA LA TABLA 1 (NIVELES DE ILUMINACION.) DE LA NORMA OFICIAL MEXICANA NOM-025-STPS-2008, ");
-        jPanel9.add(jLabel1);
-        jLabel1.setBounds(70, 10, 961, 15);
+        jPanel9.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 10, -1, -1));
 
         jLabel64.setText("CONDICIONES DE ILUMINACION EN LOS CENTROS DE TRABAJO");
-        jPanel9.add(jLabel64);
-        jLabel64.setBounds(360, 30, 370, 15);
+        jPanel9.add(jLabel64, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 30, -1, -1));
 
         jLabel65.setBackground(new java.awt.Color(53, 46, 46));
         jLabel65.setFont(new java.awt.Font("DejaVu Sans", 1, 14)); // NOI18N
         jLabel65.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel65.setText("<html> % de Iluminación<br>Artificial</html>");
         jLabel65.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
-        jPanel9.add(jLabel65);
-        jLabel65.setBounds(910, 70, 150, 50);
+        jPanel9.add(jLabel65, new org.netbeans.lib.awtextra.AbsoluteConstraints(910, 70, 150, 50));
 
         jLabel66.setBackground(new java.awt.Color(53, 46, 46));
         jLabel66.setFont(new java.awt.Font("DejaVu Sans", 1, 14)); // NOI18N
         jLabel66.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel66.setText("<html>Area de<br>Trabajo</html>");
         jLabel66.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
-        jPanel9.add(jLabel66);
-        jLabel66.setBounds(10, 70, 150, 50);
+        jPanel9.add(jLabel66, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 70, 150, 50));
 
         jLabel67.setBackground(new java.awt.Color(53, 46, 46));
         jLabel67.setFont(new java.awt.Font("DejaVu Sans", 1, 14)); // NOI18N
         jLabel67.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel67.setText("<html>Ejemplos</html>");
         jLabel67.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
-        jPanel9.add(jLabel67);
-        jLabel67.setBounds(160, 70, 150, 50);
+        jPanel9.add(jLabel67, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 70, 150, 50));
 
         jLabel68.setBackground(new java.awt.Color(53, 46, 46));
         jLabel68.setFont(new java.awt.Font("DejaVu Sans", 1, 14)); // NOI18N
         jLabel68.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel68.setText("<html>Niveles mínimos<br>de Iluminación</html>");
+        jLabel68.setText("<html>Niveles mínimos<br>de Iluminación<br>(Luxes)</html>");
         jLabel68.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
-        jPanel9.add(jLabel68);
-        jLabel68.setBounds(310, 70, 150, 50);
+        jPanel9.add(jLabel68, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 70, 150, 50));
 
         jLabel69.setBackground(new java.awt.Color(53, 46, 46));
         jLabel69.setFont(new java.awt.Font("DejaVu Sans", 1, 14)); // NOI18N
         jLabel69.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel69.setText("<html>Medición de Luxes<br>con Iluminación<br>Natural</html>");
         jLabel69.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
-        jPanel9.add(jLabel69);
-        jLabel69.setBounds(460, 70, 150, 50);
+        jPanel9.add(jLabel69, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 70, 150, 50));
 
         jLabel70.setBackground(new java.awt.Color(53, 46, 46));
         jLabel70.setFont(new java.awt.Font("DejaVu Sans", 1, 14)); // NOI18N
         jLabel70.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel70.setText("<html>Diferencia<br>Iluminación<br>Artificial</html>");
         jLabel70.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
-        jPanel9.add(jLabel70);
-        jLabel70.setBounds(610, 70, 150, 50);
+        jPanel9.add(jLabel70, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 70, 150, 50));
 
         jLabel71.setBackground(new java.awt.Color(53, 46, 46));
         jLabel71.setFont(new java.awt.Font("DejaVu Sans", 1, 14)); // NOI18N
         jLabel71.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel71.setText("<html> % de Iluminación<br>Natural</html>");
         jLabel71.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
-        jPanel9.add(jLabel71);
-        jLabel71.setBounds(760, 70, 150, 50);
+        jPanel9.add(jLabel71, new org.netbeans.lib.awtextra.AbsoluteConstraints(760, 70, 150, 50));
 
         jLabel72.setBackground(new java.awt.Color(53, 46, 46));
-        jLabel72.setFont(new java.awt.Font("DejaVu Sans", 1, 10)); // NOI18N
+        jLabel72.setFont(new java.awt.Font("DejaVu Sans", 0, 10)); // NOI18N
         jLabel72.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel72.setText("<html>Exteriores generales</html>");
-        jLabel72.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
-        jPanel9.add(jLabel72);
-        jLabel72.setBounds(10, 125, 150, 25);
+        jPanel9.add(jLabel72, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 125, 150, 25));
 
         jLabel73.setBackground(new java.awt.Color(53, 46, 46));
-        jLabel73.setFont(new java.awt.Font("DejaVu Sans", 1, 10)); // NOI18N
+        jLabel73.setFont(new java.awt.Font("DejaVu Sans", 0, 10)); // NOI18N
         jLabel73.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel73.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
-        jPanel9.add(jLabel73);
-        jLabel73.setBounds(160, 125, 150, 25);
+        jLabel73.setText("Patios y Estacionamiento");
+        jPanel9.add(jLabel73, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 125, 150, 25));
 
         jLabel74.setBackground(new java.awt.Color(53, 46, 46));
         jLabel74.setFont(new java.awt.Font("DejaVu Sans", 1, 10)); // NOI18N
         jLabel74.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel74.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
-        jPanel9.add(jLabel74);
-        jLabel74.setBounds(310, 125, 150, 25);
+        jLabel74.setText("20");
+        jPanel9.add(jLabel74, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 125, 150, 25));
 
-        jLabel75.setBackground(new java.awt.Color(53, 46, 46));
-        jLabel75.setFont(new java.awt.Font("DejaVu Sans", 1, 10)); // NOI18N
+        txt3EDifExteriores.setEditable(false);
+        txt3EDifExteriores.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jPanel9.add(txt3EDifExteriores, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 125, 150, 25));
+
+        txt3EPorcentajeNExteriores.setEditable(false);
+        txt3EPorcentajeNExteriores.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jPanel9.add(txt3EPorcentajeNExteriores, new org.netbeans.lib.awtextra.AbsoluteConstraints(760, 125, 125, 25));
+
+        txt3EPorcentajeAExteriores.setEditable(false);
+        txt3EPorcentajeAExteriores.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        txt3EPorcentajeAExteriores.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txt3EPorcentajeAExterioresActionPerformed(evt);
+            }
+        });
+        jPanel9.add(txt3EPorcentajeAExteriores, new org.netbeans.lib.awtextra.AbsoluteConstraints(910, 125, 125, 25));
+
         jLabel75.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel75.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
-        jPanel9.add(jLabel75);
-        jLabel75.setBounds(460, 125, 150, 25);
+        jLabel75.setText("%");
+        jPanel9.add(jLabel75, new org.netbeans.lib.awtextra.AbsoluteConstraints(1035, 125, 25, 25));
 
-        jLabel76.setBackground(new java.awt.Color(53, 46, 46));
-        jLabel76.setFont(new java.awt.Font("DejaVu Sans", 1, 10)); // NOI18N
-        jLabel76.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel76.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
-        jPanel9.add(jLabel76);
-        jLabel76.setBounds(610, 125, 150, 25);
+        jLabel76.setText("%");
+        jPanel9.add(jLabel76, new org.netbeans.lib.awtextra.AbsoluteConstraints(890, 125, 25, 25));
 
         jLabel77.setBackground(new java.awt.Color(53, 46, 46));
-        jLabel77.setFont(new java.awt.Font("DejaVu Sans", 1, 10)); // NOI18N
+        jLabel77.setFont(new java.awt.Font("DejaVu Sans", 0, 10)); // NOI18N
         jLabel77.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel77.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
-        jPanel9.add(jLabel77);
-        jLabel77.setBounds(760, 125, 150, 25);
+        jLabel77.setText("<html>Interiores generales <br>con poco movimiento</html>");
+        jPanel9.add(jLabel77, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 150, 150, 25));
 
         jLabel78.setBackground(new java.awt.Color(53, 46, 46));
-        jLabel78.setFont(new java.awt.Font("DejaVu Sans", 1, 10)); // NOI18N
+        jLabel78.setFont(new java.awt.Font("DejaVu Sans", 0, 10)); // NOI18N
         jLabel78.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel78.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
-        jPanel9.add(jLabel78);
-        jLabel78.setBounds(910, 125, 150, 25);
+        jLabel78.setText("<html>Pasillos, escaleras<br>estacionamientos cub</html>");
+        jPanel9.add(jLabel78, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 150, 150, 25));
+
+        jLabel79.setBackground(new java.awt.Color(53, 46, 46));
+        jLabel79.setFont(new java.awt.Font("DejaVu Sans", 1, 10)); // NOI18N
+        jLabel79.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel79.setText("50");
+        jPanel9.add(jLabel79, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 150, 150, 25));
+
+        txt3EDifExteriores1.setEditable(false);
+        txt3EDifExteriores1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jPanel9.add(txt3EDifExteriores1, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 150, 150, 25));
+
+        txt3EPorcentajeNExteriores1.setEditable(false);
+        txt3EPorcentajeNExteriores1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jPanel9.add(txt3EPorcentajeNExteriores1, new org.netbeans.lib.awtextra.AbsoluteConstraints(760, 150, 125, 25));
+
+        jLabel80.setText("%");
+        jPanel9.add(jLabel80, new org.netbeans.lib.awtextra.AbsoluteConstraints(890, 150, 25, 25));
+
+        txt3EPorcentajeAExteriores1.setEditable(false);
+        txt3EPorcentajeAExteriores1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        txt3EPorcentajeAExteriores1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txt3EPorcentajeAExteriores1ActionPerformed(evt);
+            }
+        });
+        jPanel9.add(txt3EPorcentajeAExteriores1, new org.netbeans.lib.awtextra.AbsoluteConstraints(910, 150, 125, 25));
+
+        jLabel81.setText("%");
+        jPanel9.add(jLabel81, new org.netbeans.lib.awtextra.AbsoluteConstraints(1040, 150, 25, 25));
+
+        jLabel82.setBackground(new java.awt.Color(53, 46, 46));
+        jLabel82.setFont(new java.awt.Font("DejaVu Sans", 0, 10)); // NOI18N
+        jLabel82.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel82.setText("<html>Areas interiores<br>de circulación</html>");
+        jPanel9.add(jLabel82, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 175, 150, 25));
+
+        jLabel83.setBackground(new java.awt.Color(53, 46, 46));
+        jLabel83.setFont(new java.awt.Font("DejaVu Sans", 0, 10)); // NOI18N
+        jLabel83.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel83.setText("<html>Salas de espera,salas de<br>descanso y almacenes</html>");
+        jPanel9.add(jLabel83, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 175, 150, 25));
+
+        jLabel84.setBackground(new java.awt.Color(53, 46, 46));
+        jLabel84.setFont(new java.awt.Font("DejaVu Sans", 1, 10)); // NOI18N
+        jLabel84.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel84.setText("100");
+        jPanel9.add(jLabel84, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 175, 150, 25));
+
+        txt3EDifExteriores2.setEditable(false);
+        txt3EDifExteriores2.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jPanel9.add(txt3EDifExteriores2, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 175, 150, 25));
+
+        txt3EPorcentajeNExteriores2.setEditable(false);
+        txt3EPorcentajeNExteriores2.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jPanel9.add(txt3EPorcentajeNExteriores2, new org.netbeans.lib.awtextra.AbsoluteConstraints(760, 175, 125, 25));
+
+        jLabel85.setText("%");
+        jPanel9.add(jLabel85, new org.netbeans.lib.awtextra.AbsoluteConstraints(890, 175, 25, 25));
+
+        txt3EPorcentajeAExteriores2.setEditable(false);
+        txt3EPorcentajeAExteriores2.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        txt3EPorcentajeAExteriores2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txt3EPorcentajeAExteriores2ActionPerformed(evt);
+            }
+        });
+        jPanel9.add(txt3EPorcentajeAExteriores2, new org.netbeans.lib.awtextra.AbsoluteConstraints(910, 175, 125, 25));
+
+        jLabel86.setText("%");
+        jPanel9.add(jLabel86, new org.netbeans.lib.awtextra.AbsoluteConstraints(1040, 175, 25, 25));
+
+        jLabel87.setBackground(new java.awt.Color(53, 46, 46));
+        jLabel87.setFont(new java.awt.Font("DejaVu Sans", 0, 10)); // NOI18N
+        jLabel87.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel87.setText("<html>Servicios al personal</html>");
+        jPanel9.add(jLabel87, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 200, 150, 25));
+
+        jLabel88.setBackground(new java.awt.Color(53, 46, 46));
+        jLabel88.setFont(new java.awt.Font("DejaVu Sans", 0, 10)); // NOI18N
+        jLabel88.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel88.setText("<html>Recepciones,despachos<br>y casetas de vigilancia</html>");
+        jPanel9.add(jLabel88, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 200, 150, 25));
+
+        jLabel89.setBackground(new java.awt.Color(53, 46, 46));
+        jLabel89.setFont(new java.awt.Font("DejaVu Sans", 1, 10)); // NOI18N
+        jLabel89.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel89.setText("200");
+        jPanel9.add(jLabel89, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 200, 150, 25));
+
+        txt3EDifExteriores3.setEditable(false);
+        txt3EDifExteriores3.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jPanel9.add(txt3EDifExteriores3, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 200, 150, 25));
+
+        txt3EPorcentajeNExteriores3.setEditable(false);
+        txt3EPorcentajeNExteriores3.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jPanel9.add(txt3EPorcentajeNExteriores3, new org.netbeans.lib.awtextra.AbsoluteConstraints(760, 200, 125, 25));
+
+        jLabel90.setText("%");
+        jPanel9.add(jLabel90, new org.netbeans.lib.awtextra.AbsoluteConstraints(890, 200, 25, 25));
+
+        txt3EPorcentajeAExteriores3.setEditable(false);
+        txt3EPorcentajeAExteriores3.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        txt3EPorcentajeAExteriores3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txt3EPorcentajeAExteriores3ActionPerformed(evt);
+            }
+        });
+        jPanel9.add(txt3EPorcentajeAExteriores3, new org.netbeans.lib.awtextra.AbsoluteConstraints(910, 200, 125, 25));
+
+        jLabel91.setText("%");
+        jPanel9.add(jLabel91, new org.netbeans.lib.awtextra.AbsoluteConstraints(1040, 200, 25, 25));
+
+        jLabel92.setBackground(new java.awt.Color(53, 46, 46));
+        jLabel92.setFont(new java.awt.Font("DejaVu Sans", 0, 10)); // NOI18N
+        jLabel92.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel92.setText("Talleres");
+        jPanel9.add(jLabel92, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 225, 150, 25));
+
+        jLabel93.setBackground(new java.awt.Color(53, 46, 46));
+        jLabel93.setFont(new java.awt.Font("DejaVu Sans", 0, 10)); // NOI18N
+        jLabel93.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel93.setText("<html>Aulas y oficinas</html>");
+        jPanel9.add(jLabel93, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 225, 150, 25));
+
+        jLabel94.setBackground(new java.awt.Color(53, 46, 46));
+        jLabel94.setFont(new java.awt.Font("DejaVu Sans", 1, 10)); // NOI18N
+        jLabel94.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel94.setText("300");
+        jPanel9.add(jLabel94, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 225, 150, 25));
+
+        txt3EDifExteriores4.setEditable(false);
+        txt3EDifExteriores4.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jPanel9.add(txt3EDifExteriores4, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 225, 150, 25));
+
+        txt3EPorcentajeNExteriores4.setEditable(false);
+        txt3EPorcentajeNExteriores4.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jPanel9.add(txt3EPorcentajeNExteriores4, new org.netbeans.lib.awtextra.AbsoluteConstraints(760, 225, 125, 25));
+
+        jLabel95.setText("%");
+        jPanel9.add(jLabel95, new org.netbeans.lib.awtextra.AbsoluteConstraints(890, 225, 25, 25));
+
+        txt3EPorcentajeAExteriores4.setEditable(false);
+        txt3EPorcentajeAExteriores4.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        txt3EPorcentajeAExteriores4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txt3EPorcentajeAExteriores4ActionPerformed(evt);
+            }
+        });
+        jPanel9.add(txt3EPorcentajeAExteriores4, new org.netbeans.lib.awtextra.AbsoluteConstraints(910, 225, 125, 25));
+
+        jLabel96.setText("%");
+        jPanel9.add(jLabel96, new org.netbeans.lib.awtextra.AbsoluteConstraints(1040, 225, 25, 25));
+
+        jLabel97.setBackground(new java.awt.Color(53, 46, 46));
+        jLabel97.setFont(new java.awt.Font("DejaVu Sans", 0, 10)); // NOI18N
+        jLabel97.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel97.setText("Talleres de presición");
+        jPanel9.add(jLabel97, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 250, 150, 25));
+
+        jLabel98.setBackground(new java.awt.Color(53, 46, 46));
+        jLabel98.setFont(new java.awt.Font("DejaVu Sans", 0, 10)); // NOI18N
+        jLabel98.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel98.setText("<html>Salas de computo,dibujo<br>y laboratorios</html>");
+        jPanel9.add(jLabel98, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 250, 150, 25));
+
+        jLabel99.setBackground(new java.awt.Color(53, 46, 46));
+        jLabel99.setFont(new java.awt.Font("DejaVu Sans", 1, 10)); // NOI18N
+        jLabel99.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel99.setText("500");
+        jPanel9.add(jLabel99, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 250, 150, 25));
+
+        txt3EDifExteriores5.setEditable(false);
+        txt3EDifExteriores5.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jPanel9.add(txt3EDifExteriores5, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 250, 150, 25));
+
+        txt3EPorcentajeNExteriores5.setEditable(false);
+        txt3EPorcentajeNExteriores5.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jPanel9.add(txt3EPorcentajeNExteriores5, new org.netbeans.lib.awtextra.AbsoluteConstraints(760, 250, 125, 25));
+
+        jLabel100.setText("%");
+        jPanel9.add(jLabel100, new org.netbeans.lib.awtextra.AbsoluteConstraints(890, 250, 25, 25));
+
+        txt3EPorcentajeAExteriores5.setEditable(false);
+        txt3EPorcentajeAExteriores5.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        txt3EPorcentajeAExteriores5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txt3EPorcentajeAExteriores5ActionPerformed(evt);
+            }
+        });
+        jPanel9.add(txt3EPorcentajeAExteriores5, new org.netbeans.lib.awtextra.AbsoluteConstraints(910, 250, 125, 25));
+
+        jLabel101.setText("%");
+        jPanel9.add(jLabel101, new org.netbeans.lib.awtextra.AbsoluteConstraints(1040, 250, 25, 25));
+
+        jLabel102.setBackground(new java.awt.Color(53, 46, 46));
+        jLabel102.setFont(new java.awt.Font("DejaVu Sans", 1, 10)); // NOI18N
+        jLabel102.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel102.setText("TOTAL");
+        jLabel102.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        jPanel9.add(jLabel102, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 295, 300, 25));
+
+        jLabel104.setBackground(new java.awt.Color(53, 46, 46));
+        jLabel104.setFont(new java.awt.Font("DejaVu Sans", 1, 10)); // NOI18N
+        jLabel104.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel104.setText("1170");
+        jLabel104.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        jPanel9.add(jLabel104, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 295, 150, 25));
+
+        txt3ETotalMedicion.setEditable(false);
+        txt3ETotalMedicion.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jPanel9.add(txt3ETotalMedicion, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 295, 150, 25));
+
+        txt3EDifExteriores6.setEditable(false);
+        txt3EDifExteriores6.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jPanel9.add(txt3EDifExteriores6, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 295, 150, 25));
+
+        txt3EPorcentajeNExteriores6.setEditable(false);
+        txt3EPorcentajeNExteriores6.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jPanel9.add(txt3EPorcentajeNExteriores6, new org.netbeans.lib.awtextra.AbsoluteConstraints(760, 295, 125, 25));
+
+        jLabel105.setText("%");
+        jPanel9.add(jLabel105, new org.netbeans.lib.awtextra.AbsoluteConstraints(890, 295, 25, 25));
+
+        txt3EPorcentajeAExteriores6.setEditable(false);
+        txt3EPorcentajeAExteriores6.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        txt3EPorcentajeAExteriores6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txt3EPorcentajeAExteriores6ActionPerformed(evt);
+            }
+        });
+        jPanel9.add(txt3EPorcentajeAExteriores6, new org.netbeans.lib.awtextra.AbsoluteConstraints(910, 295, 125, 25));
+
+        jLabel106.setText("%");
+        jPanel9.add(jLabel106, new org.netbeans.lib.awtextra.AbsoluteConstraints(1040, 295, 25, 25));
+
+        jSeparator1.setForeground(new java.awt.Color(0, 0, 0));
+        jPanel9.add(jSeparator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 149, 1080, 1));
+
+        jSeparator2.setForeground(new java.awt.Color(0, 0, 0));
+        jPanel9.add(jSeparator2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 174, 1080, 1));
+
+        jSeparator3.setForeground(new java.awt.Color(0, 0, 0));
+        jPanel9.add(jSeparator3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 199, 1080, 1));
+
+        jSeparator4.setForeground(new java.awt.Color(0, 0, 0));
+        jPanel9.add(jSeparator4, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 224, 1080, 1));
+
+        jSeparator5.setForeground(new java.awt.Color(0, 0, 0));
+        jPanel9.add(jSeparator5, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 249, 1080, 1));
+
+        jSeparator6.setForeground(new java.awt.Color(0, 0, 0));
+        jPanel9.add(jSeparator6, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 274, 1080, 1));
+
+        jSeparator7.setForeground(new java.awt.Color(0, 0, 0));
+        jSeparator7.setOrientation(javax.swing.SwingConstants.VERTICAL);
+        jPanel9.add(jSeparator7, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 120, 1, 155));
+
+        jSeparator8.setForeground(new java.awt.Color(0, 0, 0));
+        jSeparator8.setOrientation(javax.swing.SwingConstants.VERTICAL);
+        jPanel9.add(jSeparator8, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 120, 1, 155));
+
+        jSeparator9.setForeground(new java.awt.Color(0, 0, 0));
+        jSeparator9.setOrientation(javax.swing.SwingConstants.VERTICAL);
+        jPanel9.add(jSeparator9, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 120, 1, 155));
+        jPanel9.add(txt3EPresicion, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 250, 150, 25));
+        jPanel9.add(txt3EExteriores, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 125, 150, 25));
+        jPanel9.add(txt3EInteriores, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 150, 150, 25));
+        jPanel9.add(txt3ETalleres, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 225, 150, 25));
+        jPanel9.add(txt3EServicios, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 200, 150, 25));
+        jPanel9.add(jSpinner6, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 200, 150, 25));
+        jPanel9.add(txt3EAreas, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 175, 150, 25));
 
         tabEnergia.addTab("Iluminación", jPanel9);
         tabEnergia.addTab("Iluminación Artificial", jPanel10);
@@ -758,7 +1089,7 @@ public class Ventana extends javax.swing.JFrame {
             }
         });
         jPanel2.add(jTextField27);
-        jTextField27.setBounds(38, 445, 100, 27);
+        jTextField27.setBounds(38, 445, 100, 19);
 
         jTextField28.setEditable(false);
         jTextField28.setHorizontalAlignment(javax.swing.JTextField.CENTER);
@@ -769,7 +1100,7 @@ public class Ventana extends javax.swing.JFrame {
             }
         });
         jPanel2.add(jTextField28);
-        jTextField28.setBounds(144, 445, 100, 27);
+        jTextField28.setBounds(144, 445, 100, 19);
 
         jTextField29.setEditable(false);
         jTextField29.setHorizontalAlignment(javax.swing.JTextField.CENTER);
@@ -780,7 +1111,7 @@ public class Ventana extends javax.swing.JFrame {
             }
         });
         jPanel2.add(jTextField29);
-        jTextField29.setBounds(144, 478, 100, 27);
+        jTextField29.setBounds(144, 478, 100, 19);
 
         jTextField30.setEditable(false);
         jTextField30.setHorizontalAlignment(javax.swing.JTextField.CENTER);
@@ -791,7 +1122,7 @@ public class Ventana extends javax.swing.JFrame {
             }
         });
         jPanel2.add(jTextField30);
-        jTextField30.setBounds(38, 478, 100, 27);
+        jTextField30.setBounds(38, 478, 100, 19);
 
         jTextField31.setEditable(false);
         jTextField31.setHorizontalAlignment(javax.swing.JTextField.CENTER);
@@ -802,7 +1133,7 @@ public class Ventana extends javax.swing.JFrame {
             }
         });
         jPanel2.add(jTextField31);
-        jTextField31.setBounds(144, 511, 100, 27);
+        jTextField31.setBounds(144, 511, 100, 19);
 
         jTextField32.setEditable(false);
         jTextField32.setHorizontalAlignment(javax.swing.JTextField.CENTER);
@@ -813,7 +1144,7 @@ public class Ventana extends javax.swing.JFrame {
             }
         });
         jPanel2.add(jTextField32);
-        jTextField32.setBounds(38, 511, 100, 27);
+        jTextField32.setBounds(38, 511, 100, 19);
 
         jLabel15.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel15.setText("% Ahorro Total");
@@ -829,7 +1160,7 @@ public class Ventana extends javax.swing.JFrame {
             }
         });
         jPanel2.add(txtPorcentajeAhorro);
-        txtPorcentajeAhorro.setBounds(450, 380, 165, 27);
+        txtPorcentajeAhorro.setBounds(450, 380, 165, 19);
 
         jLabel16.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel16.setText("Puntuación");
@@ -977,7 +1308,7 @@ public class Ventana extends javax.swing.JFrame {
             }
         });
         jPanel3.add(jTextField33);
-        jTextField33.setBounds(38, 445, 100, 27);
+        jTextField33.setBounds(38, 445, 100, 19);
 
         jTextField34.setEditable(false);
         jTextField34.setHorizontalAlignment(javax.swing.JTextField.CENTER);
@@ -988,7 +1319,7 @@ public class Ventana extends javax.swing.JFrame {
             }
         });
         jPanel3.add(jTextField34);
-        jTextField34.setBounds(144, 445, 100, 27);
+        jTextField34.setBounds(144, 445, 100, 19);
 
         jTextField35.setEditable(false);
         jTextField35.setHorizontalAlignment(javax.swing.JTextField.CENTER);
@@ -999,7 +1330,7 @@ public class Ventana extends javax.swing.JFrame {
             }
         });
         jPanel3.add(jTextField35);
-        jTextField35.setBounds(38, 478, 100, 27);
+        jTextField35.setBounds(38, 478, 100, 19);
 
         jTextField36.setEditable(false);
         jTextField36.setHorizontalAlignment(javax.swing.JTextField.CENTER);
@@ -1010,7 +1341,7 @@ public class Ventana extends javax.swing.JFrame {
             }
         });
         jPanel3.add(jTextField36);
-        jTextField36.setBounds(144, 478, 100, 27);
+        jTextField36.setBounds(144, 478, 100, 19);
 
         jTextField37.setEditable(false);
         jTextField37.setHorizontalAlignment(javax.swing.JTextField.CENTER);
@@ -1021,7 +1352,7 @@ public class Ventana extends javax.swing.JFrame {
             }
         });
         jPanel3.add(jTextField37);
-        jTextField37.setBounds(38, 511, 100, 27);
+        jTextField37.setBounds(38, 511, 100, 19);
 
         jTextField38.setEditable(false);
         jTextField38.setHorizontalAlignment(javax.swing.JTextField.CENTER);
@@ -1032,7 +1363,7 @@ public class Ventana extends javax.swing.JFrame {
             }
         });
         jPanel3.add(jTextField38);
-        jTextField38.setBounds(144, 511, 100, 27);
+        jTextField38.setBounds(144, 511, 100, 19);
 
         tabAgua.addTab("2. Aguas Grises", jPanel3);
 
@@ -1090,37 +1421,30 @@ public class Ventana extends javax.swing.JFrame {
         jLabel40.setBounds(450, 60, 250, 25);
 
         jLabel41.setText("LAGUNAJE (AEROBIAS, ANAEROBIAS, FACULTATIVAS) ");
-        jLabel41.setBorder(null);
         Panel3Sistemas.add(jLabel41);
         jLabel41.setBounds(30, 235, 420, 25);
 
         jLabel42.setText("LODOS ACTIVADOS ");
-        jLabel42.setBorder(null);
         Panel3Sistemas.add(jLabel42);
         jLabel42.setBounds(30, 85, 420, 25);
 
         jLabel43.setText("LAGUNAS AIREADAS ");
-        jLabel43.setBorder(null);
         Panel3Sistemas.add(jLabel43);
         jLabel43.setBounds(30, 110, 420, 25);
 
         jLabel44.setText("DIGESTIÓN AEROBIA ");
-        jLabel44.setBorder(null);
         Panel3Sistemas.add(jLabel44);
         jLabel44.setBounds(30, 135, 420, 25);
 
         jLabel45.setText("FILTROS PERCOLADORES ");
-        jLabel45.setBorder(null);
         Panel3Sistemas.add(jLabel45);
         jLabel45.setBounds(30, 160, 420, 25);
 
         jLabel46.setText("DIGESTIÓN ANAEROBIA ");
-        jLabel46.setBorder(null);
         Panel3Sistemas.add(jLabel46);
         jLabel46.setBounds(30, 185, 420, 25);
 
         jLabel47.setText("LECHO EXPANDIDO (MEDIOS FILRANTES DE CULTIVO BIOLOGICO) ");
-        jLabel47.setBorder(null);
         Panel3Sistemas.add(jLabel47);
         jLabel47.setBounds(30, 210, 420, 25);
 
@@ -1196,7 +1520,7 @@ public class Ventana extends javax.swing.JFrame {
         txt3Porcentaje.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         txt3Porcentaje.setText("0");
         Panel3Sistemas.add(txt3Porcentaje);
-        txt3Porcentaje.setBounds(430, 300, 160, 27);
+        txt3Porcentaje.setBounds(430, 300, 160, 19);
 
         txt3Lagunaje.setModel(new javax.swing.SpinnerNumberModel(0.0d, 0.0d, null, 0.1d));
         txt3Lagunaje.addChangeListener(new javax.swing.event.ChangeListener() {
@@ -1279,7 +1603,7 @@ public class Ventana extends javax.swing.JFrame {
             }
         });
         jPanel4.add(jTextField39);
-        jTextField39.setBounds(38, 445, 100, 27);
+        jTextField39.setBounds(38, 445, 100, 19);
 
         jTextField40.setEditable(false);
         jTextField40.setHorizontalAlignment(javax.swing.JTextField.CENTER);
@@ -1290,7 +1614,7 @@ public class Ventana extends javax.swing.JFrame {
             }
         });
         jPanel4.add(jTextField40);
-        jTextField40.setBounds(38, 478, 100, 27);
+        jTextField40.setBounds(38, 478, 100, 19);
 
         jTextField41.setEditable(false);
         jTextField41.setHorizontalAlignment(javax.swing.JTextField.CENTER);
@@ -1301,7 +1625,7 @@ public class Ventana extends javax.swing.JFrame {
             }
         });
         jPanel4.add(jTextField41);
-        jTextField41.setBounds(38, 511, 100, 27);
+        jTextField41.setBounds(38, 511, 100, 19);
 
         jTextField42.setEditable(false);
         jTextField42.setHorizontalAlignment(javax.swing.JTextField.CENTER);
@@ -1312,7 +1636,7 @@ public class Ventana extends javax.swing.JFrame {
             }
         });
         jPanel4.add(jTextField42);
-        jTextField42.setBounds(144, 511, 100, 27);
+        jTextField42.setBounds(144, 511, 100, 19);
 
         jTextField43.setEditable(false);
         jTextField43.setHorizontalAlignment(javax.swing.JTextField.CENTER);
@@ -1323,7 +1647,7 @@ public class Ventana extends javax.swing.JFrame {
             }
         });
         jPanel4.add(jTextField43);
-        jTextField43.setBounds(144, 478, 100, 27);
+        jTextField43.setBounds(144, 478, 100, 19);
 
         jTextField44.setEditable(false);
         jTextField44.setHorizontalAlignment(javax.swing.JTextField.CENTER);
@@ -1334,7 +1658,7 @@ public class Ventana extends javax.swing.JFrame {
             }
         });
         jPanel4.add(jTextField44);
-        jTextField44.setBounds(144, 445, 100, 27);
+        jTextField44.setBounds(144, 445, 100, 19);
 
         txtPuntuacion3.setEditable(false);
         txtPuntuacion3.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
@@ -1372,7 +1696,7 @@ public class Ventana extends javax.swing.JFrame {
             }
         });
         jPanel5.add(jTextField45);
-        jTextField45.setBounds(650, 150, 100, 27);
+        jTextField45.setBounds(650, 150, 100, 19);
 
         jTextField46.setEditable(false);
         jTextField46.setHorizontalAlignment(javax.swing.JTextField.CENTER);
@@ -1383,7 +1707,7 @@ public class Ventana extends javax.swing.JFrame {
             }
         });
         jPanel5.add(jTextField46);
-        jTextField46.setBounds(760, 150, 100, 27);
+        jTextField46.setBounds(760, 150, 100, 19);
 
         jTextField47.setEditable(false);
         jTextField47.setHorizontalAlignment(javax.swing.JTextField.CENTER);
@@ -1394,7 +1718,7 @@ public class Ventana extends javax.swing.JFrame {
             }
         });
         jPanel5.add(jTextField47);
-        jTextField47.setBounds(650, 180, 100, 27);
+        jTextField47.setBounds(650, 180, 100, 19);
 
         jTextField48.setEditable(false);
         jTextField48.setHorizontalAlignment(javax.swing.JTextField.CENTER);
@@ -1405,7 +1729,7 @@ public class Ventana extends javax.swing.JFrame {
             }
         });
         jPanel5.add(jTextField48);
-        jTextField48.setBounds(760, 180, 100, 27);
+        jTextField48.setBounds(760, 180, 100, 19);
 
         txtPuntuacion4.setEditable(false);
         txtPuntuacion4.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
@@ -1454,7 +1778,7 @@ public class Ventana extends javax.swing.JFrame {
             }
         });
         jPanel6.add(jTextField49);
-        jTextField49.setBounds(650, 150, 100, 27);
+        jTextField49.setBounds(650, 150, 100, 19);
 
         jTextField50.setEditable(false);
         jTextField50.setHorizontalAlignment(javax.swing.JTextField.CENTER);
@@ -1465,7 +1789,7 @@ public class Ventana extends javax.swing.JFrame {
             }
         });
         jPanel6.add(jTextField50);
-        jTextField50.setBounds(760, 150, 100, 27);
+        jTextField50.setBounds(760, 150, 100, 19);
 
         jTextField51.setEditable(false);
         jTextField51.setHorizontalAlignment(javax.swing.JTextField.CENTER);
@@ -1476,7 +1800,7 @@ public class Ventana extends javax.swing.JFrame {
             }
         });
         jPanel6.add(jTextField51);
-        jTextField51.setBounds(650, 180, 100, 27);
+        jTextField51.setBounds(650, 180, 100, 19);
 
         jTextField52.setEditable(false);
         jTextField52.setHorizontalAlignment(javax.swing.JTextField.CENTER);
@@ -1487,7 +1811,7 @@ public class Ventana extends javax.swing.JFrame {
             }
         });
         jPanel6.add(jTextField52);
-        jTextField52.setBounds(760, 180, 100, 27);
+        jTextField52.setBounds(760, 180, 100, 19);
 
         txtPuntuacion5.setEditable(false);
         txtPuntuacion5.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
@@ -2190,6 +2514,34 @@ public class Ventana extends javax.swing.JFrame {
         }
     }//GEN-LAST:event_slc5TorreActionPerformed
 
+    private void txt3EPorcentajeAExterioresActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txt3EPorcentajeAExterioresActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txt3EPorcentajeAExterioresActionPerformed
+
+    private void txt3EPorcentajeAExteriores1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txt3EPorcentajeAExteriores1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txt3EPorcentajeAExteriores1ActionPerformed
+
+    private void txt3EPorcentajeAExteriores2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txt3EPorcentajeAExteriores2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txt3EPorcentajeAExteriores2ActionPerformed
+
+    private void txt3EPorcentajeAExteriores3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txt3EPorcentajeAExteriores3ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txt3EPorcentajeAExteriores3ActionPerformed
+
+    private void txt3EPorcentajeAExteriores4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txt3EPorcentajeAExteriores4ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txt3EPorcentajeAExteriores4ActionPerformed
+
+    private void txt3EPorcentajeAExteriores5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txt3EPorcentajeAExteriores5ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txt3EPorcentajeAExteriores5ActionPerformed
+
+    private void txt3EPorcentajeAExteriores6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txt3EPorcentajeAExteriores6ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txt3EPorcentajeAExteriores6ActionPerformed
+
     
     /**
      * @param args the command line arguments
@@ -2254,6 +2606,12 @@ public class Ventana extends javax.swing.JFrame {
     private javax.swing.JTextField gastoTotalAhorro;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
+    private javax.swing.JLabel jLabel100;
+    private javax.swing.JLabel jLabel101;
+    private javax.swing.JLabel jLabel102;
+    private javax.swing.JLabel jLabel104;
+    private javax.swing.JLabel jLabel105;
+    private javax.swing.JLabel jLabel106;
     private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel12;
     private javax.swing.JLabel jLabel13;
@@ -2328,8 +2686,29 @@ public class Ventana extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel76;
     private javax.swing.JLabel jLabel77;
     private javax.swing.JLabel jLabel78;
+    private javax.swing.JLabel jLabel79;
     private javax.swing.JLabel jLabel8;
+    private javax.swing.JLabel jLabel80;
+    private javax.swing.JLabel jLabel81;
+    private javax.swing.JLabel jLabel82;
+    private javax.swing.JLabel jLabel83;
+    private javax.swing.JLabel jLabel84;
+    private javax.swing.JLabel jLabel85;
+    private javax.swing.JLabel jLabel86;
+    private javax.swing.JLabel jLabel87;
+    private javax.swing.JLabel jLabel88;
+    private javax.swing.JLabel jLabel89;
     private javax.swing.JLabel jLabel9;
+    private javax.swing.JLabel jLabel90;
+    private javax.swing.JLabel jLabel91;
+    private javax.swing.JLabel jLabel92;
+    private javax.swing.JLabel jLabel93;
+    private javax.swing.JLabel jLabel94;
+    private javax.swing.JLabel jLabel95;
+    private javax.swing.JLabel jLabel96;
+    private javax.swing.JLabel jLabel97;
+    private javax.swing.JLabel jLabel98;
+    private javax.swing.JLabel jLabel99;
     private javax.swing.JMenu jMenu1;
     private javax.swing.JMenu jMenu2;
     private javax.swing.JMenuBar jMenuBar1;
@@ -2349,6 +2728,16 @@ public class Ventana extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel7;
     private javax.swing.JPanel jPanel8;
     private javax.swing.JPanel jPanel9;
+    private javax.swing.JSeparator jSeparator1;
+    private javax.swing.JSeparator jSeparator2;
+    private javax.swing.JSeparator jSeparator3;
+    private javax.swing.JSeparator jSeparator4;
+    private javax.swing.JSeparator jSeparator5;
+    private javax.swing.JSeparator jSeparator6;
+    private javax.swing.JSeparator jSeparator7;
+    private javax.swing.JSeparator jSeparator8;
+    private javax.swing.JSeparator jSeparator9;
+    private javax.swing.JSpinner jSpinner6;
     private javax.swing.JTextField jTextField27;
     private javax.swing.JTextField jTextField28;
     private javax.swing.JTextField jTextField29;
@@ -2386,6 +2775,34 @@ public class Ventana extends javax.swing.JFrame {
     private javax.swing.JSpinner txt3Aguas;
     private javax.swing.JSpinner txt3Anaerobia;
     private javax.swing.JTextField txt3Anaerobia1;
+    private javax.swing.JSpinner txt3EAreas;
+    private javax.swing.JTextField txt3EDifExteriores;
+    private javax.swing.JTextField txt3EDifExteriores1;
+    private javax.swing.JTextField txt3EDifExteriores2;
+    private javax.swing.JTextField txt3EDifExteriores3;
+    private javax.swing.JTextField txt3EDifExteriores4;
+    private javax.swing.JTextField txt3EDifExteriores5;
+    private javax.swing.JTextField txt3EDifExteriores6;
+    private javax.swing.JSpinner txt3EExteriores;
+    private javax.swing.JSpinner txt3EInteriores;
+    private javax.swing.JTextField txt3EPorcentajeAExteriores;
+    private javax.swing.JTextField txt3EPorcentajeAExteriores1;
+    private javax.swing.JTextField txt3EPorcentajeAExteriores2;
+    private javax.swing.JTextField txt3EPorcentajeAExteriores3;
+    private javax.swing.JTextField txt3EPorcentajeAExteriores4;
+    private javax.swing.JTextField txt3EPorcentajeAExteriores5;
+    private javax.swing.JTextField txt3EPorcentajeAExteriores6;
+    private javax.swing.JTextField txt3EPorcentajeNExteriores;
+    private javax.swing.JTextField txt3EPorcentajeNExteriores1;
+    private javax.swing.JTextField txt3EPorcentajeNExteriores2;
+    private javax.swing.JTextField txt3EPorcentajeNExteriores3;
+    private javax.swing.JTextField txt3EPorcentajeNExteriores4;
+    private javax.swing.JTextField txt3EPorcentajeNExteriores5;
+    private javax.swing.JTextField txt3EPorcentajeNExteriores6;
+    private javax.swing.JSpinner txt3EPresicion;
+    private javax.swing.JSpinner txt3EServicios;
+    private javax.swing.JSpinner txt3ETalleres;
+    private javax.swing.JTextField txt3ETotalMedicion;
     private javax.swing.JSpinner txt3Filtros;
     private javax.swing.JTextField txt3Filtros1;
     private javax.swing.JSpinner txt3Lagunaje;
