@@ -7,7 +7,7 @@ package seis;
 
 /**
  *
- * @author gengi
+ * @author hp
  */
 public class SEIS {
 
@@ -16,6 +16,8 @@ public class SEIS {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Ventana Ventana = new Ventana();
+        Ventana.setVisible(true);
     }
     
 }
