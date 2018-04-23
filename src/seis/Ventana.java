@@ -448,7 +448,7 @@ public class Ventana extends javax.swing.JFrame {
 
         txt3EDifExteriores.setEditable(false);
         txt3EDifExteriores.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        txt3EDifExteriores.setText("0");
+        txt3EDifExteriores.setText("20");
         jPanel9.add(txt3EDifExteriores, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 125, 150, 25));
 
         txt3EPorcentajeNExteriores.setEditable(false);
@@ -491,7 +491,7 @@ public class Ventana extends javax.swing.JFrame {
 
         txt3EDifInteriores.setEditable(false);
         txt3EDifInteriores.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        txt3EDifInteriores.setText("0");
+        txt3EDifInteriores.setText("50");
         jPanel9.add(txt3EDifInteriores, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 150, 150, 25));
 
         txt3EPorcentajeNInteriores.setEditable(false);
@@ -533,7 +533,7 @@ public class Ventana extends javax.swing.JFrame {
 
         txt3EDifAreas.setEditable(false);
         txt3EDifAreas.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        txt3EDifAreas.setText("0");
+        txt3EDifAreas.setText("100");
         jPanel9.add(txt3EDifAreas, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 175, 150, 25));
 
         txt3EPorcentajeNAreas.setEditable(false);
@@ -575,7 +575,7 @@ public class Ventana extends javax.swing.JFrame {
 
         txt3EDifServicios.setEditable(false);
         txt3EDifServicios.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        txt3EDifServicios.setText("0");
+        txt3EDifServicios.setText("200");
         jPanel9.add(txt3EDifServicios, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 200, 150, 25));
 
         txt3EPorcentajeNServicios.setEditable(false);
@@ -617,7 +617,7 @@ public class Ventana extends javax.swing.JFrame {
 
         txt3EDifTalleres.setEditable(false);
         txt3EDifTalleres.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        txt3EDifTalleres.setText("0");
+        txt3EDifTalleres.setText("300");
         jPanel9.add(txt3EDifTalleres, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 225, 150, 25));
 
         txt3EPorcentajeNTalleres.setEditable(false);
@@ -660,7 +660,7 @@ public class Ventana extends javax.swing.JFrame {
 
         txt3EDifPresicion.setEditable(false);
         txt3EDifPresicion.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        txt3EDifPresicion.setText("0");
+        txt3EDifPresicion.setText("500");
         jPanel9.add(txt3EDifPresicion, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 250, 150, 25));
 
         txt3EPorcentajeNPresicion.setEditable(false);
@@ -702,6 +702,7 @@ public class Ventana extends javax.swing.JFrame {
 
         txt3TotalDifA.setEditable(false);
         txt3TotalDifA.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        txt3TotalDifA.setText("1170");
         jPanel9.add(txt3TotalDifA, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 295, 150, 25));
 
         txt3PorcentajeNTotal.setEditable(false);
@@ -754,6 +755,11 @@ public class Ventana extends javax.swing.JFrame {
         jPanel9.add(jSeparator9, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 120, 1, 155));
 
         txt3EPresicion.setModel(new javax.swing.SpinnerNumberModel(0, 0, null, 1));
+        txt3EPresicion.addChangeListener(new javax.swing.event.ChangeListener() {
+            public void stateChanged(javax.swing.event.ChangeEvent evt) {
+                txt3EPresicionStateChanged(evt);
+            }
+        });
         jPanel9.add(txt3EPresicion, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 250, 150, 25));
 
         txt3EExteriores.setModel(new javax.swing.SpinnerNumberModel(0, 0, null, 1));
@@ -773,13 +779,28 @@ public class Ventana extends javax.swing.JFrame {
         jPanel9.add(txt3EInteriores, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 150, 150, 25));
 
         txt3ETalleres.setModel(new javax.swing.SpinnerNumberModel(0, 0, null, 1));
+        txt3ETalleres.addChangeListener(new javax.swing.event.ChangeListener() {
+            public void stateChanged(javax.swing.event.ChangeEvent evt) {
+                txt3ETalleresStateChanged(evt);
+            }
+        });
         jPanel9.add(txt3ETalleres, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 225, 150, 25));
 
         txt3EServicios.setModel(new javax.swing.SpinnerNumberModel(0, 0, null, 1));
+        txt3EServicios.addChangeListener(new javax.swing.event.ChangeListener() {
+            public void stateChanged(javax.swing.event.ChangeEvent evt) {
+                txt3EServiciosStateChanged(evt);
+            }
+        });
         jPanel9.add(txt3EServicios, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 200, 150, 25));
         jPanel9.add(jSpinner6, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 200, 150, 25));
 
         txt3EAreas.setModel(new javax.swing.SpinnerNumberModel(0, 0, null, 1));
+        txt3EAreas.addChangeListener(new javax.swing.event.ChangeListener() {
+            public void stateChanged(javax.swing.event.ChangeEvent evt) {
+                txt3EAreasStateChanged(evt);
+            }
+        });
         jPanel9.add(txt3EAreas, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 175, 150, 25));
 
         jLabel103.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -863,7 +884,7 @@ public class Ventana extends javax.swing.JFrame {
         jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel2.setText("Mueble");
         jPanel2.add(jLabel2);
-        jLabel2.setBounds(100, 40, 140, 14);
+        jLabel2.setBounds(100, 40, 140, 15);
 
         SpinnerFregadero.setModel(new javax.swing.SpinnerNumberModel(0, 0, null, 1));
         SpinnerFregadero.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
@@ -878,7 +899,7 @@ public class Ventana extends javax.swing.JFrame {
         jLabel3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel3.setText("Cantidad");
         jPanel2.add(jLabel3);
-        jLabel3.setBounds(300, 40, 70, 14);
+        jLabel3.setBounds(300, 40, 70, 15);
 
         SpinnerInodoro.setModel(new javax.swing.SpinnerNumberModel(0, 0, null, 1));
         SpinnerInodoro.addChangeListener(new javax.swing.event.ChangeListener() {
@@ -928,7 +949,7 @@ public class Ventana extends javax.swing.JFrame {
         jLabel4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel4.setText("Ahorrador");
         jPanel2.add(jLabel4);
-        jLabel4.setBounds(540, 40, 200, 14);
+        jLabel4.setBounds(540, 40, 200, 15);
 
         ComboFregadero.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "No tiene", "Perlizador", "Valvula temporizada", "Sensor electronico", "Otro" }));
         ComboFregadero.addActionListener(new java.awt.event.ActionListener() {
@@ -987,7 +1008,7 @@ public class Ventana extends javax.swing.JFrame {
         jLabel5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel5.setText("Gasto (L / S)");
         jPanel2.add(jLabel5);
-        jLabel5.setBounds(410, 40, 100, 14);
+        jLabel5.setBounds(410, 40, 100, 15);
 
         gastoTFregadero.setEditable(false);
         gastoTFregadero.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
@@ -1028,7 +1049,7 @@ public class Ventana extends javax.swing.JFrame {
         jLabel6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel6.setText("% Ahorro");
         jPanel2.add(jLabel6);
-        jLabel6.setBounds(776, 40, 80, 14);
+        jLabel6.setBounds(776, 40, 80, 15);
 
         gastoTotal.setEditable(false);
         gastoTotal.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
@@ -1110,7 +1131,7 @@ public class Ventana extends javax.swing.JFrame {
         jLabel7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel7.setText("Gasto con Ahorro");
         jPanel2.add(jLabel7);
-        jLabel7.setBounds(880, 40, 150, 14);
+        jLabel7.setBounds(880, 40, 150, 15);
 
         txtGastoAhorroFregadero.setEditable(false);
         txtGastoAhorroFregadero.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
@@ -1193,7 +1214,7 @@ public class Ventana extends javax.swing.JFrame {
             }
         });
         jPanel2.add(jTextField27);
-        jTextField27.setBounds(38, 445, 100, 18);
+        jTextField27.setBounds(38, 445, 100, 19);
 
         jTextField28.setEditable(false);
         jTextField28.setHorizontalAlignment(javax.swing.JTextField.CENTER);
@@ -1204,7 +1225,7 @@ public class Ventana extends javax.swing.JFrame {
             }
         });
         jPanel2.add(jTextField28);
-        jTextField28.setBounds(144, 445, 100, 18);
+        jTextField28.setBounds(144, 445, 100, 19);
 
         jTextField29.setEditable(false);
         jTextField29.setHorizontalAlignment(javax.swing.JTextField.CENTER);
@@ -1215,7 +1236,7 @@ public class Ventana extends javax.swing.JFrame {
             }
         });
         jPanel2.add(jTextField29);
-        jTextField29.setBounds(144, 478, 100, 18);
+        jTextField29.setBounds(144, 478, 100, 19);
 
         jTextField30.setEditable(false);
         jTextField30.setHorizontalAlignment(javax.swing.JTextField.CENTER);
@@ -1226,7 +1247,7 @@ public class Ventana extends javax.swing.JFrame {
             }
         });
         jPanel2.add(jTextField30);
-        jTextField30.setBounds(38, 478, 100, 18);
+        jTextField30.setBounds(38, 478, 100, 19);
 
         jTextField31.setEditable(false);
         jTextField31.setHorizontalAlignment(javax.swing.JTextField.CENTER);
@@ -1237,7 +1258,7 @@ public class Ventana extends javax.swing.JFrame {
             }
         });
         jPanel2.add(jTextField31);
-        jTextField31.setBounds(144, 511, 100, 18);
+        jTextField31.setBounds(144, 511, 100, 19);
 
         jTextField32.setEditable(false);
         jTextField32.setHorizontalAlignment(javax.swing.JTextField.CENTER);
@@ -1248,12 +1269,12 @@ public class Ventana extends javax.swing.JFrame {
             }
         });
         jPanel2.add(jTextField32);
-        jTextField32.setBounds(38, 511, 100, 18);
+        jTextField32.setBounds(38, 511, 100, 19);
 
         jLabel15.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel15.setText("% Ahorro Total");
         jPanel2.add(jLabel15);
-        jLabel15.setBounds(450, 360, 150, 14);
+        jLabel15.setBounds(450, 360, 150, 15);
 
         txtPorcentajeAhorro.setEditable(false);
         txtPorcentajeAhorro.setHorizontalAlignment(javax.swing.JTextField.CENTER);
@@ -1264,12 +1285,12 @@ public class Ventana extends javax.swing.JFrame {
             }
         });
         jPanel2.add(txtPorcentajeAhorro);
-        txtPorcentajeAhorro.setBounds(450, 380, 165, 18);
+        txtPorcentajeAhorro.setBounds(450, 380, 165, 19);
 
         jLabel16.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel16.setText("Puntuación");
         jPanel2.add(jLabel16);
-        jLabel16.setBounds(450, 420, 165, 14);
+        jLabel16.setBounds(450, 420, 165, 15);
 
         txtPuntuacion1.setEditable(false);
         txtPuntuacion1.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
@@ -1330,7 +1351,7 @@ public class Ventana extends javax.swing.JFrame {
         jLabel21.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel21.setText("Puntuación");
         jPanel3.add(jLabel21);
-        jLabel21.setBounds(450, 420, 165, 14);
+        jLabel21.setBounds(450, 420, 165, 15);
 
         jLabel26.setFont(new java.awt.Font("DejaVu Sans", 1, 14)); // NOI18N
         jLabel26.setText("LA EDIFICACIÓN ¿CUENTA CON TRATAMIENTO DE AGUAS GRISES? ");
@@ -1412,7 +1433,7 @@ public class Ventana extends javax.swing.JFrame {
             }
         });
         jPanel3.add(jTextField33);
-        jTextField33.setBounds(38, 445, 100, 18);
+        jTextField33.setBounds(38, 445, 100, 19);
 
         jTextField34.setEditable(false);
         jTextField34.setHorizontalAlignment(javax.swing.JTextField.CENTER);
@@ -1423,7 +1444,7 @@ public class Ventana extends javax.swing.JFrame {
             }
         });
         jPanel3.add(jTextField34);
-        jTextField34.setBounds(144, 445, 100, 18);
+        jTextField34.setBounds(144, 445, 100, 19);
 
         jTextField35.setEditable(false);
         jTextField35.setHorizontalAlignment(javax.swing.JTextField.CENTER);
@@ -1434,7 +1455,7 @@ public class Ventana extends javax.swing.JFrame {
             }
         });
         jPanel3.add(jTextField35);
-        jTextField35.setBounds(38, 478, 100, 18);
+        jTextField35.setBounds(38, 478, 100, 19);
 
         jTextField36.setEditable(false);
         jTextField36.setHorizontalAlignment(javax.swing.JTextField.CENTER);
@@ -1445,7 +1466,7 @@ public class Ventana extends javax.swing.JFrame {
             }
         });
         jPanel3.add(jTextField36);
-        jTextField36.setBounds(144, 478, 100, 18);
+        jTextField36.setBounds(144, 478, 100, 19);
 
         jTextField37.setEditable(false);
         jTextField37.setHorizontalAlignment(javax.swing.JTextField.CENTER);
@@ -1456,7 +1477,7 @@ public class Ventana extends javax.swing.JFrame {
             }
         });
         jPanel3.add(jTextField37);
-        jTextField37.setBounds(38, 511, 100, 18);
+        jTextField37.setBounds(38, 511, 100, 19);
 
         jTextField38.setEditable(false);
         jTextField38.setHorizontalAlignment(javax.swing.JTextField.CENTER);
@@ -1467,7 +1488,7 @@ public class Ventana extends javax.swing.JFrame {
             }
         });
         jPanel3.add(jTextField38);
-        jTextField38.setBounds(144, 511, 100, 18);
+        jTextField38.setBounds(144, 511, 100, 19);
 
         tabAgua.addTab("2. Aguas Grises", jPanel3);
 
@@ -1624,7 +1645,7 @@ public class Ventana extends javax.swing.JFrame {
         txt3Porcentaje.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         txt3Porcentaje.setText("0");
         Panel3Sistemas.add(txt3Porcentaje);
-        txt3Porcentaje.setBounds(430, 300, 160, 18);
+        txt3Porcentaje.setBounds(430, 300, 160, 19);
 
         txt3Lagunaje.setModel(new javax.swing.SpinnerNumberModel(0.0d, 0.0d, null, 0.1d));
         txt3Lagunaje.addChangeListener(new javax.swing.event.ChangeListener() {
@@ -1707,7 +1728,7 @@ public class Ventana extends javax.swing.JFrame {
             }
         });
         jPanel4.add(jTextField39);
-        jTextField39.setBounds(38, 445, 100, 18);
+        jTextField39.setBounds(38, 445, 100, 19);
 
         jTextField40.setEditable(false);
         jTextField40.setHorizontalAlignment(javax.swing.JTextField.CENTER);
@@ -1718,7 +1739,7 @@ public class Ventana extends javax.swing.JFrame {
             }
         });
         jPanel4.add(jTextField40);
-        jTextField40.setBounds(38, 478, 100, 18);
+        jTextField40.setBounds(38, 478, 100, 19);
 
         jTextField41.setEditable(false);
         jTextField41.setHorizontalAlignment(javax.swing.JTextField.CENTER);
@@ -1729,7 +1750,7 @@ public class Ventana extends javax.swing.JFrame {
             }
         });
         jPanel4.add(jTextField41);
-        jTextField41.setBounds(38, 511, 100, 18);
+        jTextField41.setBounds(38, 511, 100, 19);
 
         jTextField42.setEditable(false);
         jTextField42.setHorizontalAlignment(javax.swing.JTextField.CENTER);
@@ -1740,7 +1761,7 @@ public class Ventana extends javax.swing.JFrame {
             }
         });
         jPanel4.add(jTextField42);
-        jTextField42.setBounds(144, 511, 100, 18);
+        jTextField42.setBounds(144, 511, 100, 19);
 
         jTextField43.setEditable(false);
         jTextField43.setHorizontalAlignment(javax.swing.JTextField.CENTER);
@@ -1751,7 +1772,7 @@ public class Ventana extends javax.swing.JFrame {
             }
         });
         jPanel4.add(jTextField43);
-        jTextField43.setBounds(144, 478, 100, 18);
+        jTextField43.setBounds(144, 478, 100, 19);
 
         jTextField44.setEditable(false);
         jTextField44.setHorizontalAlignment(javax.swing.JTextField.CENTER);
@@ -1762,7 +1783,7 @@ public class Ventana extends javax.swing.JFrame {
             }
         });
         jPanel4.add(jTextField44);
-        jTextField44.setBounds(144, 445, 100, 18);
+        jTextField44.setBounds(144, 445, 100, 19);
 
         txtPuntuacion3.setEditable(false);
         txtPuntuacion3.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
@@ -1774,7 +1795,7 @@ public class Ventana extends javax.swing.JFrame {
         jLabel35.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel35.setText("Puntuación");
         jPanel4.add(jLabel35);
-        jLabel35.setBounds(450, 420, 165, 14);
+        jLabel35.setBounds(450, 420, 165, 15);
 
         jLabel37.setFont(new java.awt.Font("DejaVu Sans", 1, 14)); // NOI18N
         jLabel37.setText("¿LA EDIFICACIÓN CUENTA CON TRATAMIENTO DE AGUAS CON SISTEMAS BIOLÓGICOS? ");
@@ -1800,7 +1821,7 @@ public class Ventana extends javax.swing.JFrame {
             }
         });
         jPanel5.add(jTextField45);
-        jTextField45.setBounds(650, 150, 100, 18);
+        jTextField45.setBounds(650, 150, 100, 19);
 
         jTextField46.setEditable(false);
         jTextField46.setHorizontalAlignment(javax.swing.JTextField.CENTER);
@@ -1811,7 +1832,7 @@ public class Ventana extends javax.swing.JFrame {
             }
         });
         jPanel5.add(jTextField46);
-        jTextField46.setBounds(760, 150, 100, 18);
+        jTextField46.setBounds(760, 150, 100, 19);
 
         jTextField47.setEditable(false);
         jTextField47.setHorizontalAlignment(javax.swing.JTextField.CENTER);
@@ -1822,7 +1843,7 @@ public class Ventana extends javax.swing.JFrame {
             }
         });
         jPanel5.add(jTextField47);
-        jTextField47.setBounds(650, 180, 100, 18);
+        jTextField47.setBounds(650, 180, 100, 19);
 
         jTextField48.setEditable(false);
         jTextField48.setHorizontalAlignment(javax.swing.JTextField.CENTER);
@@ -1833,7 +1854,7 @@ public class Ventana extends javax.swing.JFrame {
             }
         });
         jPanel5.add(jTextField48);
-        jTextField48.setBounds(760, 180, 100, 18);
+        jTextField48.setBounds(760, 180, 100, 19);
 
         txtPuntuacion4.setEditable(false);
         txtPuntuacion4.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
@@ -1845,7 +1866,7 @@ public class Ventana extends javax.swing.JFrame {
         jLabel57.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel57.setText("Puntuación");
         jPanel5.add(jLabel57);
-        jLabel57.setBounds(450, 420, 165, 14);
+        jLabel57.setBounds(450, 420, 165, 15);
 
         jLabel58.setText("RESULTADO % MANEJO DE AGUA");
         jPanel5.add(jLabel58);
@@ -1882,7 +1903,7 @@ public class Ventana extends javax.swing.JFrame {
             }
         });
         jPanel6.add(jTextField49);
-        jTextField49.setBounds(650, 150, 100, 18);
+        jTextField49.setBounds(650, 150, 100, 19);
 
         jTextField50.setEditable(false);
         jTextField50.setHorizontalAlignment(javax.swing.JTextField.CENTER);
@@ -1893,7 +1914,7 @@ public class Ventana extends javax.swing.JFrame {
             }
         });
         jPanel6.add(jTextField50);
-        jTextField50.setBounds(760, 150, 100, 18);
+        jTextField50.setBounds(760, 150, 100, 19);
 
         jTextField51.setEditable(false);
         jTextField51.setHorizontalAlignment(javax.swing.JTextField.CENTER);
@@ -1904,7 +1925,7 @@ public class Ventana extends javax.swing.JFrame {
             }
         });
         jPanel6.add(jTextField51);
-        jTextField51.setBounds(650, 180, 100, 18);
+        jTextField51.setBounds(650, 180, 100, 19);
 
         jTextField52.setEditable(false);
         jTextField52.setHorizontalAlignment(javax.swing.JTextField.CENTER);
@@ -1915,7 +1936,7 @@ public class Ventana extends javax.swing.JFrame {
             }
         });
         jPanel6.add(jTextField52);
-        jTextField52.setBounds(760, 180, 100, 18);
+        jTextField52.setBounds(760, 180, 100, 19);
 
         txtPuntuacion5.setEditable(false);
         txtPuntuacion5.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
@@ -1927,7 +1948,7 @@ public class Ventana extends javax.swing.JFrame {
         jLabel61.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel61.setText("Puntuación");
         jPanel6.add(jLabel61);
-        jLabel61.setBounds(450, 420, 165, 14);
+        jLabel61.setBounds(450, 420, 165, 15);
 
         jLabel62.setText("¿LA EFIDICACIÓN CUENTA CON TORRE DE ENFRIAMIENTO PASIVO?");
         jPanel6.add(jLabel62);
@@ -2665,7 +2686,7 @@ public class Ventana extends javax.swing.JFrame {
     }//GEN-LAST:event_txt3EExterioresStateChanged
 
     private void txt3EInterioresStateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_txt3EInterioresStateChanged
-        float valorbase = (float)1170;
+       float valorbase = (float)1170;
        float valor = Float.parseFloat(this.txt3EInteriores.getValue().toString());
        float diferencia = 50 - valor;
        this.txt3EDifInteriores.setText(""+diferencia);
@@ -2681,6 +2702,78 @@ public class Ventana extends javax.swing.JFrame {
        this.txt3Puntuacion3.setText(""+this.energia.Puntuacion3);
        CalculaEnergia3();
     }//GEN-LAST:event_txt3EInterioresStateChanged
+
+    private void txt3EAreasStateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_txt3EAreasStateChanged
+        float valorbase = (float)1170;
+       float valor = Float.parseFloat(this.txt3EAreas.getValue().toString());
+       float diferencia = 100 - valor;
+       this.txt3EDifAreas.setText(""+diferencia);
+       float pordifNat = (valor*100)/valorbase;
+       float pordifArt = (diferencia*100)/valorbase;
+       this.txt3EPorcentajeNAreas.setText(String.format("%.2f",pordifNat));
+       this.txt3EPorcentajeAAreas.setText(String.format("%.2f",pordifArt));    
+       this.energia.setPAreasN(pordifNat);
+       this.energia.setPAreasA(pordifArt);
+       this.energia.CanculaTotal3();
+       this.txt3PorcentajeATotal.setText(String.format("%.2f",this.energia.getPTotalA()));
+       this.txt3PorcentajeNTotal.setText(String.format("%.2f",this.energia.getPTotalN()));
+       this.txt3Puntuacion3.setText(""+this.energia.Puntuacion3);
+       CalculaEnergia3();
+    }//GEN-LAST:event_txt3EAreasStateChanged
+
+    private void txt3EServiciosStateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_txt3EServiciosStateChanged
+       float valorbase = (float)1170;
+       float valor = Float.parseFloat(this.txt3EServicios.getValue().toString());
+       float diferencia = 200 - valor;
+       this.txt3EDifServicios.setText(""+diferencia);
+       float pordifNat = (valor*100)/valorbase;
+       float pordifArt = (diferencia*100)/valorbase;
+       this.txt3EPorcentajeNServicios.setText(String.format("%.2f",pordifNat));
+       this.txt3EPorcentajeAServicios.setText(String.format("%.2f",pordifArt));    
+       this.energia.setPServiciosN(pordifNat);
+       this.energia.setPServiciosA(pordifArt);
+       this.energia.CanculaTotal3();
+       this.txt3PorcentajeATotal.setText(String.format("%.2f",this.energia.getPTotalA()));
+       this.txt3PorcentajeNTotal.setText(String.format("%.2f",this.energia.getPTotalN()));
+       this.txt3Puntuacion3.setText(""+this.energia.Puntuacion3);
+       CalculaEnergia3();
+    }//GEN-LAST:event_txt3EServiciosStateChanged
+
+    private void txt3ETalleresStateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_txt3ETalleresStateChanged
+       float valorbase = (float)1170;
+       float valor = Float.parseFloat(this.txt3ETalleres.getValue().toString());
+       float diferencia = 300 - valor;
+       this.txt3EDifTalleres.setText(""+diferencia);
+       float pordifNat = (valor*100)/valorbase;
+       float pordifArt = (diferencia*100)/valorbase;
+       this.txt3EPorcentajeNTalleres.setText(String.format("%.2f",pordifNat));
+       this.txt3EPorcentajeATalleres.setText(String.format("%.2f",pordifArt));    
+       this.energia.setPTalleresN(pordifNat);
+       this.energia.setPTalleresA(pordifArt);
+       this.energia.CanculaTotal3();
+       this.txt3PorcentajeATotal.setText(String.format("%.2f",this.energia.getPTotalA()));
+       this.txt3PorcentajeNTotal.setText(String.format("%.2f",this.energia.getPTotalN()));
+       this.txt3Puntuacion3.setText(""+this.energia.Puntuacion3);
+       CalculaEnergia3();
+    }//GEN-LAST:event_txt3ETalleresStateChanged
+
+    private void txt3EPresicionStateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_txt3EPresicionStateChanged
+       float valorbase = (float)1170;
+       float valor = Float.parseFloat(this.txt3EPresicion.getValue().toString());
+       float diferencia = 500 - valor;
+       this.txt3EDifPresicion.setText(""+diferencia);
+       float pordifNat = (valor*100)/valorbase;
+       float pordifArt = (diferencia*100)/valorbase;
+       this.txt3EPorcentajeNPresicion.setText(String.format("%.2f",pordifNat));
+       this.txt3EPorcentajeAPresicion.setText(String.format("%.2f",pordifArt));    
+       this.energia.setPPresicionN(pordifNat);
+       this.energia.setPPresicionA(pordifArt);
+       this.energia.CanculaTotal3();
+       this.txt3PorcentajeATotal.setText(String.format("%.2f",this.energia.getPTotalA()));
+       this.txt3PorcentajeNTotal.setText(String.format("%.2f",this.energia.getPTotalN()));
+       this.txt3Puntuacion3.setText(""+this.energia.Puntuacion3);
+       CalculaEnergia3();
+    }//GEN-LAST:event_txt3EPresicionStateChanged
 
     
     
