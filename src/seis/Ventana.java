@@ -54,7 +54,10 @@ public class Ventana extends javax.swing.JFrame {
         botonConfort = new javax.swing.JButton();
         tabEnergia = new javax.swing.JTabbedPane();
         jPanel7 = new javax.swing.JPanel();
+        jButton1 = new javax.swing.JButton();
         jPanel8 = new javax.swing.JPanel();
+        jButton2 = new javax.swing.JButton();
+        jButton8 = new javax.swing.JButton();
         jPanel9 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         jLabel64 = new javax.swing.JLabel();
@@ -147,11 +150,22 @@ public class Ventana extends javax.swing.JFrame {
         jLabel113 = new javax.swing.JLabel();
         txt3Puntuacion3 = new javax.swing.JLabel();
         jLabel115 = new javax.swing.JLabel();
+        jButton3 = new javax.swing.JButton();
+        jButton9 = new javax.swing.JButton();
         jPanel10 = new javax.swing.JPanel();
+        jButton4 = new javax.swing.JButton();
+        jButton10 = new javax.swing.JButton();
         jPanel11 = new javax.swing.JPanel();
+        jButton5 = new javax.swing.JButton();
+        jButton11 = new javax.swing.JButton();
         jPanel12 = new javax.swing.JPanel();
+        jButton6 = new javax.swing.JButton();
+        jButton12 = new javax.swing.JButton();
         jPanel13 = new javax.swing.JPanel();
+        jButton7 = new javax.swing.JButton();
+        jButton13 = new javax.swing.JButton();
         jPanel14 = new javax.swing.JPanel();
+        jButton14 = new javax.swing.JButton();
         tabAgua = new javax.swing.JTabbedPane();
         jPanel2 = new javax.swing.JPanel();
         jLabel2 = new javax.swing.JLabel();
@@ -368,7 +382,45 @@ public class Ventana extends javax.swing.JFrame {
         });
         jPanel1.add(botonConfort, new org.netbeans.lib.awtextra.AbsoluteConstraints(670, 30, 250, 40));
 
+        jPanel7.setLayout(null);
+
+        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Flecha_derecha.png"))); // NOI18N
+        jButton1.setText("Siguiente");
+        jButton1.setHorizontalTextPosition(javax.swing.SwingConstants.LEFT);
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
+        jPanel7.add(jButton1);
+        jButton1.setBounds(930, 485, 140, 40);
+
         tabEnergia.addTab("tab1", jPanel7);
+
+        jPanel8.setLayout(null);
+
+        jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Flecha_izquierda.png"))); // NOI18N
+        jButton2.setText("Anterior");
+        jButton2.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
+        jPanel8.add(jButton2);
+        jButton2.setBounds(790, 485, 140, 40);
+
+        jButton8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Flecha_derecha.png"))); // NOI18N
+        jButton8.setText("Siguiente");
+        jButton8.setHorizontalTextPosition(javax.swing.SwingConstants.LEFT);
+        jButton8.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton8ActionPerformed(evt);
+            }
+        });
+        jPanel8.add(jButton8);
+        jButton8.setBounds(930, 485, 140, 40);
+
         tabEnergia.addTab("tab2", jPanel8);
 
         jPanel9.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -867,11 +919,145 @@ public class Ventana extends javax.swing.JFrame {
         jLabel115.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jPanel9.add(jLabel115, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 420, 165, 25));
 
+        jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Flecha_derecha.png"))); // NOI18N
+        jButton3.setText("Siguiente");
+        jButton3.setHorizontalTextPosition(javax.swing.SwingConstants.LEFT);
+        jButton3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton3ActionPerformed(evt);
+            }
+        });
+        jPanel9.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(930, 485, 140, 40));
+
+        jButton9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Flecha_izquierda.png"))); // NOI18N
+        jButton9.setText("Anterior");
+        jButton9.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
+        jButton9.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton9ActionPerformed(evt);
+            }
+        });
+        jPanel9.add(jButton9, new org.netbeans.lib.awtextra.AbsoluteConstraints(790, 485, 140, 40));
+
         tabEnergia.addTab("Iluminación", jPanel9);
+
+        jPanel10.setLayout(null);
+
+        jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Flecha_derecha.png"))); // NOI18N
+        jButton4.setText("Siguiente");
+        jButton4.setHorizontalTextPosition(javax.swing.SwingConstants.LEFT);
+        jButton4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton4ActionPerformed(evt);
+            }
+        });
+        jPanel10.add(jButton4);
+        jButton4.setBounds(930, 485, 140, 40);
+
+        jButton10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Flecha_izquierda.png"))); // NOI18N
+        jButton10.setText("Anterior");
+        jButton10.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
+        jButton10.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton10ActionPerformed(evt);
+            }
+        });
+        jPanel10.add(jButton10);
+        jButton10.setBounds(790, 485, 140, 40);
+
         tabEnergia.addTab("Iluminación Artificial", jPanel10);
+
+        jPanel11.setLayout(null);
+
+        jButton5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Flecha_derecha.png"))); // NOI18N
+        jButton5.setText("Siguiente");
+        jButton5.setHorizontalTextPosition(javax.swing.SwingConstants.LEFT);
+        jButton5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton5ActionPerformed(evt);
+            }
+        });
+        jPanel11.add(jButton5);
+        jButton5.setBounds(930, 485, 140, 40);
+
+        jButton11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Flecha_izquierda.png"))); // NOI18N
+        jButton11.setText("Anterior");
+        jButton11.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
+        jButton11.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton11ActionPerformed(evt);
+            }
+        });
+        jPanel11.add(jButton11);
+        jButton11.setBounds(790, 485, 140, 40);
+
         tabEnergia.addTab("tab5", jPanel11);
+
+        jPanel12.setLayout(null);
+
+        jButton6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Flecha_derecha.png"))); // NOI18N
+        jButton6.setText("Siguiente");
+        jButton6.setHorizontalTextPosition(javax.swing.SwingConstants.LEFT);
+        jButton6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton6ActionPerformed(evt);
+            }
+        });
+        jPanel12.add(jButton6);
+        jButton6.setBounds(930, 485, 140, 40);
+
+        jButton12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Flecha_izquierda.png"))); // NOI18N
+        jButton12.setText("Anterior");
+        jButton12.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
+        jButton12.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton12ActionPerformed(evt);
+            }
+        });
+        jPanel12.add(jButton12);
+        jButton12.setBounds(790, 485, 140, 40);
+
         tabEnergia.addTab("Equipos y Aparatos", jPanel12);
+
+        jPanel13.setLayout(null);
+
+        jButton7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Flecha_derecha.png"))); // NOI18N
+        jButton7.setText("Siguiente");
+        jButton7.setHorizontalTextPosition(javax.swing.SwingConstants.LEFT);
+        jButton7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton7ActionPerformed(evt);
+            }
+        });
+        jPanel13.add(jButton7);
+        jButton7.setBounds(930, 485, 140, 40);
+
+        jButton13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Flecha_izquierda.png"))); // NOI18N
+        jButton13.setText("Anterior");
+        jButton13.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
+        jButton13.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton13ActionPerformed(evt);
+            }
+        });
+        jPanel13.add(jButton13);
+        jButton13.setBounds(790, 485, 140, 40);
+
         tabEnergia.addTab("Energía Renovable", jPanel13);
+
+        jPanel14.setLayout(null);
+
+        jButton14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Flecha_izquierda.png"))); // NOI18N
+        jButton14.setText("Anterior");
+        jButton14.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
+        jButton14.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton14ActionPerformed(evt);
+            }
+        });
+        jPanel14.add(jButton14);
+        jButton14.setBounds(930, 485, 140, 40);
+
         tabEnergia.addTab("Integración", jPanel14);
 
         jPanel1.add(tabEnergia, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 100, 1090, 580));
@@ -2775,6 +2961,62 @@ public class Ventana extends javax.swing.JFrame {
        CalculaEnergia3();
     }//GEN-LAST:event_txt3EPresicionStateChanged
 
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        this.tabEnergia.setSelectedIndex(1);
+    }//GEN-LAST:event_jButton1ActionPerformed
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        this.tabEnergia.setSelectedIndex(0);
+    }//GEN-LAST:event_jButton2ActionPerformed
+
+    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+        this.tabEnergia.setSelectedIndex(3);
+    }//GEN-LAST:event_jButton3ActionPerformed
+
+    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
+        this.tabEnergia.setSelectedIndex(4);
+    }//GEN-LAST:event_jButton4ActionPerformed
+
+    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
+        this.tabEnergia.setSelectedIndex(5);
+    }//GEN-LAST:event_jButton5ActionPerformed
+
+    private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
+        this.tabEnergia.setSelectedIndex(6);
+    }//GEN-LAST:event_jButton6ActionPerformed
+
+    private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
+        this.tabEnergia.setSelectedIndex(7);
+    }//GEN-LAST:event_jButton7ActionPerformed
+
+    private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
+        this.tabEnergia.setSelectedIndex(2);
+    }//GEN-LAST:event_jButton8ActionPerformed
+
+    private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton9ActionPerformed
+        this.tabEnergia.setSelectedIndex(1);
+    }//GEN-LAST:event_jButton9ActionPerformed
+
+    private void jButton10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton10ActionPerformed
+        this.tabEnergia.setSelectedIndex(2);
+    }//GEN-LAST:event_jButton10ActionPerformed
+
+    private void jButton11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton11ActionPerformed
+        this.tabEnergia.setSelectedIndex(3);
+    }//GEN-LAST:event_jButton11ActionPerformed
+
+    private void jButton12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton12ActionPerformed
+        this.tabEnergia.setSelectedIndex(4);
+    }//GEN-LAST:event_jButton12ActionPerformed
+
+    private void jButton13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton13ActionPerformed
+        this.tabEnergia.setSelectedIndex(5);
+    }//GEN-LAST:event_jButton13ActionPerformed
+
+    private void jButton14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton14ActionPerformed
+        this.tabEnergia.setSelectedIndex(6);
+    }//GEN-LAST:event_jButton14ActionPerformed
+
     
     
     
@@ -2851,6 +3093,20 @@ public class Ventana extends javax.swing.JFrame {
     private javax.swing.JTextField gastoTVertedero;
     private javax.swing.JTextField gastoTotal;
     private javax.swing.JTextField gastoTotalAhorro;
+    private javax.swing.JButton jButton1;
+    private javax.swing.JButton jButton10;
+    private javax.swing.JButton jButton11;
+    private javax.swing.JButton jButton12;
+    private javax.swing.JButton jButton13;
+    private javax.swing.JButton jButton14;
+    private javax.swing.JButton jButton2;
+    private javax.swing.JButton jButton3;
+    private javax.swing.JButton jButton4;
+    private javax.swing.JButton jButton5;
+    private javax.swing.JButton jButton6;
+    private javax.swing.JButton jButton7;
+    private javax.swing.JButton jButton8;
+    private javax.swing.JButton jButton9;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel100;
